@@ -1,0 +1,26 @@
+
+<!-- saved from url=(0113)https://ole.ouhk.edu.hk/course1604/comps381f.nsf/cm_lookup/80DCE31A5A237A754825804E003EF3F6/$File/restaurant.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=Big5">
+<title>Restaurant</title>
+</head>
+<body>
+
+<form action="http://localhost:8099/create" method="post"enctype="multipart/form-data">
+	
+	Name:<input type="text" name="resname"><br>
+	Building: <input type="text" name="building"><br>
+	Street: <input type="text" name="street"><br>
+	Zipcode: <input type="text" name="zipcode"><br>
+	Longitude: <input type="text" name="lon"><br>
+	Latitude: <input type="text" name="lat"><br>
+	Cuisine: <input type="text" name="cuisine"><br>
+	<br>
+	<input type="file" name="sampleFile">
+            <br>
+	<input type="submit" value="create">
+	<a href="/read">back</a>
+</form>
+
+
+
+</body></html>

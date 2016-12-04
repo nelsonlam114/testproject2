@@ -1,0 +1,28 @@
+<HTML>
+<BODY>
+<head>
+  <title>update</title>
+</head>
+<form method="POST" action="/update2">
+restaurant:<input name="resname" type="text" value="<%= r.resname %>" ><br>
+cuisine:<input name="cuisine" type="text" value="<%= r.cuisine %>"><br>
+street:<input name="street" type="text" value="<%= r.street %>"><br>
+building:<input name="building" type="text" value="<%= r.building %>"><br>
+zipcode:<input type="text" name="cuisine" value="<%= r.zipcode %>"><br>
+<!--<p>id:<%= r._id %></p>
+<p>cuisine: <%= r.cuisine %></p>
+<p>street: <%= r.street %></p>
+<p>building: <%= r.building %></p>
+<p>zipcode: <%= r.zipcode %></p>-->
+<input type="submit" value="update"></form>
+<p>Created By: <%= r.username %></p>
+
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</BODY>
+</HTML>

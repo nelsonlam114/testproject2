@@ -1,0 +1,26 @@
+<HTML>
+<BODY>
+<head>
+  <title><%= r.resname %></title>
+</head>
+
+
+<H2><%= r.resname %></H2>
+<p>id:<%= r._id %></p>
+<p>cuisine: <%= r.cuisine %></p>
+<p>street: <%= r.street %></p>
+<p>building: <%= r.building %></p>
+<p>zipcode: <%= r.zipcode %></p>
+
+<p>Created By: <%= r.username %></p>
+<button> <a href="/delete?<%= r._id %>">delete</a></button>
+<button> <a href="/update?<%= r._id %>">update</a></button>
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</BODY>
+</HTML>

@@ -1,0 +1,20 @@
+
+<!-- saved from url=(0113)https://ole.ouhk.edu.hk/course1604/comps381f.nsf/cm_lookup/80DCE31A5A237A754825804E003EF3F6/$File/restaurant.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=Big5">
+<title>Delete</title>
+</head>
+<body>
+
+<form action="http://localhost:8099/register" method="post">
+	username:<input type="text" name="username"><br>
+	password: <input type="password" name="password"><br>
+	repassword: <input type="password" name="repassword"><br>
+	<br>
+	<br>
+	<input type="submit" value="register">
+	<a href="/login">login</a>
+</form>
+
+
+
+</body></html>

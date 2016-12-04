@@ -1,0 +1,18 @@
+<HTML>
+<head><title>Restaurants</title></head>
+<BODY>
+<div align="left">
+<h1>Restaurants</h1>
+<div>user: <%= session.username %> </div>
+<a href="/create" style="text-decoration: none">
+<button class="w3-btn">New</button></a>
+<br />
+<H1>Showing <%= r.length %> restaurant</H1>
+<ol>
+  <% r.forEach(function(restaurant) { %>
+  <li><a href=/showonmap?_id=<%= restaurant._id %>><%= restaurant.resname %></a></li>
+  <% });                        %>
+<ol>
+<br/>
+<button name="logout"><a href="/logout">logout</a></button>
+</BODY></HTML>
